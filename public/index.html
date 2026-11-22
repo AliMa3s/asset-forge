@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asset Forge</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3 28 9.5v13L16 29 4 22.5v-13z' fill='%23e8713a'/%3E%3Cpath d='M16 3v26M4 9.5l12 6.5 12-6.5' stroke='%23fff' stroke-width='1.6' fill='none' opacity='.75'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <nav class="side" aria-label="Main">
+      <a class="brand" href="#/create">
+        <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M16 3 28 9.5v13L16 29 4 22.5v-13z" fill="var(--accent)"/><path d="M16 3v26M4 9.5l12 6.5 12-6.5" stroke="#fff" stroke-width="1.6" fill="none" opacity=".75"/></svg>
+        <span>Asset Forge</span>
+      </a>
+      <a class="nav" data-route="create" href="#/create">Create</a>
+      <a class="nav" data-route="library" href="#/library">Library</a>
+      <a class="nav" data-route="lessons" href="#/lessons">Lessons</a>
+      <a class="nav" data-route="settings" href="#/settings">Settings</a>
+      <div class="side-foot" id="side-foot"></div>
+    </nav>
+    <main id="main" tabindex="-1"></main>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

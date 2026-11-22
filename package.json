@@ -1,0 +1,16 @@
+{
+  "name": "asset-forge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Describe 3D assets in words; AI agents build, review and improve them in Blender.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.12.0"
+  }
+}
