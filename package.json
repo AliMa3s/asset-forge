@@ -2,6 +2,7 @@
   "name": "asset-forge",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "description": "Describe 3D assets in words; AI agents build, review and improve them in Blender.",
   "type": "module",
   "scripts": {

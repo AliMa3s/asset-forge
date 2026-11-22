@@ -59,3 +59,7 @@ Bad: characters, animals and other organic shapes, and anything that needs paint
 ## Offline test
 
 `node server.js --fake` runs the whole pipeline with a scripted stand-in for the model, so you can check Blender and the UI without a key or any cost. It writes to `.test/` and leaves real settings, lessons and output alone.
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
